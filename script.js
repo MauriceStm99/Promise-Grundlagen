@@ -53,7 +53,7 @@ async function usePromise() {
     console.log("juhu");
 }
     catch (error) {
-        console.log(error);
+        console.error(error);
     }
     console.log("ende");
 }
